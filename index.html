@@ -27,8 +27,16 @@
             </ul>
             <div class="row">
                 <div class="col">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloudy">
-                    15℃ | ℉
+                    <div class="first">
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloudy">
+                        <!--<img src="partly-cloudy.png" alt="cloudy" />-->
+                        <div class="temp-container">
+                            <p class="temp">19</p>
+                            <p class="degree"><a href="#" id="cel">°C</a> | <a href="#" id="faren">°F</a></p>
+
+                        </div>
+                        
+                   </div>
                 </div>
                 <div class="col">
                     <ul>
@@ -40,7 +48,7 @@
             </div>
 
         </div>
-        <p>
+        <p class="foot">
             <a href="https://github.com/lowlah/weather_app" target="_blank">open source code</a> by Omolola Oladeinde
         </p>
 
