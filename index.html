@@ -21,32 +21,41 @@
 <body>
     <div class="container">
         <div class="wrapper-app">
-            <h1 id="city-name">Lagos</h1>
-            <ul>
-                <li id="current-time">Friday 05:00</li>
-                <li id="weather-state">Cloudy</li>
-            </ul>
-            <div class="row">
-                <div class="col">
-                    <div class="first">
-                        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloudy">
-                        <!--<img src="partly-cloudy.png" alt="cloudy" />-->
-                        <div class="temp-container">
-                            <p class="temp" id="temperature">19</p>
-                            <p class="degree"><a href="#" id="cel">°C</a> | <a href="#" id="faren">°F</a></p>
+            <header>
+                <form>
+                    <input type="search" placeholder="Enter a city .....">
+                    <input type="submit" value="search">
+                </form>
+            </header>
+            <main>
+                <h1 id="city-name">Lagos</h1>
+                <ul>
+                    <li id="current-time">Friday 05:00</li>
+                    <li id="weather-state">Cloudy</li>
+                </ul>
+                <div class="row">
+                    <div class="col">
+                        <div class="first">
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloudy">
+                            <!--<img src="partly-cloudy.png" alt="cloudy" />-->
+                            <div class="temp-container">
+                                <p class="temp" id="temperature">19</p>
+                                <p class="degree"><a href="#" id="cel">°C</a> | <a href="#" id="faren">°F</a></p>
 
+                            </div>       
                         </div>
-                        
-                   </div>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li id="vis">Visibility: 5000</li>
+                            <li id="hum-val">Humidity: 32%</li>
+                            <li id="win-val">Wind: km/h</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col">
-                    <ul>
-                        <li id="vis">Visibility: 5000</li>
-                        <li id="hum-val">Humidity: 32%</li>
-                        <li id="win-val">Wind: km/h</li>
-                    </ul>
-                </div>
-            </div>
+
+            </main>
+            
 
         </div>
         <footer class="foot">
